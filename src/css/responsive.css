@@ -219,8 +219,11 @@
     background-color: #273444;
     display: block;
   }
+  header {
+    background-color: #47a0ff;
+  }
   header::before {
-    width: 110vw;
+    width: 95vw;
   }
   #about .slider {
     width: 330px;
@@ -343,16 +346,16 @@
     left: 0;
   }
   35% {
-    left: -320px;
+    left: -330px;
   }
   55% {
-    left: -320px;
+    left: -330px;
   }
   65% {
-    left: -640px;
+    left: -660px;
   }
   90% {
-    left: -640px;
+    left: -660px;
   }
 }
 
@@ -364,16 +367,16 @@
     left: 0;
   }
   35% {
-    left: -320px;
+    left: -330px;
   }
   55% {
-    left: -320px;
+    left: -330px;
   }
   65% {
-    left: -640px;
+    left: -660px;
   }
   90% {
-    left: -640px;
+    left: -660px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
