@@ -129,3 +129,7 @@ function prevSlide () {
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
 
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})

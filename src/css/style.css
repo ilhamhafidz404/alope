@@ -1,5 +1,7 @@
 body {
   overflow-x: hidden !important;
+  -webkit-overflow-x: hidden !important;
+  max-width: 100vw;
   font-family: 'Poppins', sans-serif;
   -webkit-transition: 1s;
   transition: 1s;
@@ -210,13 +212,13 @@ header::before {
   left: 0;
   right: 0;
   top: -150px;
-  width: 150vw;
+  width: 100vw;
   bottom: 0;
   height: 650px;
   z-index: -1;
   -webkit-transform: rotate(175deg);
           transform: rotate(175deg);
-  border-radius: 100px;
+  border-radius: 0 100px 0 0;
 }
 
 header .content {

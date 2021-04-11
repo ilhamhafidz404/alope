@@ -13,6 +13,8 @@ $darkText: #475569
 
 body
     overflow-x: hidden !important
+    -webkit-overflow-x: hidden !important
+    max-width: 100vw
     @include poppins()
     transition: 1s
     &.active
@@ -155,12 +157,12 @@ header
         left: 0
         right: 0
         top: -150px
-        width: 150vw
+        width: 100vw
         bottom: 0
         height: 650px
         z-index: -1
         transform: rotate(175deg)
-        border-radius: 100px
+        border-radius: 0 100px 0 0
     .content
         margin-top: 90px
         .hot
