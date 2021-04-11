@@ -193,7 +193,7 @@
   nav {
     padding: 30px 20px;
     color: #fff;
-    position: fixed !important;
+    position: fixed;
   }
   nav .logo h3 {
     letter-spacing: 2px;
@@ -220,7 +220,7 @@
     display: block;
   }
   header::before {
-    width: 100vw;
+    width: 110vw;
   }
   #about .slider {
     width: 330px;
@@ -257,7 +257,7 @@
     top: -150px;
     -webkit-transform: rotate(0);
             transform: rotate(0);
-    border-radius: 0 0 0 50px;
+    border-radius: 50px;
   }
   header .content {
     margin-top: 0px;
