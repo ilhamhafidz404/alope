@@ -219,6 +219,18 @@
     background-color: #273444;
     display: block;
   }
+  #about .slider {
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #about .slider ul li {
+    width: 300px;
+    -webkit-animation: slider2 10s infinite;
+            animation: slider2 10s infinite;
+  }
 }
 
 @media screen and (max-width: 410px) {
@@ -275,13 +287,6 @@
     color: #eeeeee;
     font-size: 13px;
     margin-top: 15px !important;
-  }
-  #about .slider {
-    width: 300px;
-    height: 300px;
-  }
-  #about .slider ul li {
-    width: 300px;
   }
 }
 
