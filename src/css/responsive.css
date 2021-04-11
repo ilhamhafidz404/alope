@@ -219,9 +219,6 @@
     background-color: #273444;
     display: block;
   }
-  header {
-    background-color: #47a0ff;
-  }
   header::before {
     width: 95vw;
   }
