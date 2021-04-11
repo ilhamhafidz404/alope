@@ -193,6 +193,7 @@
   nav {
     padding: 30px 20px;
     color: #fff;
+    position: fixed !important;
   }
   nav .logo h3 {
     letter-spacing: 2px;
