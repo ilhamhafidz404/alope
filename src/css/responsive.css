@@ -276,6 +276,13 @@
     font-size: 13px;
     margin-top: 15px !important;
   }
+  #about .slider {
+    width: 300px;
+    height: 300px;
+  }
+  #about .slider ul li {
+    width: 300px;
+  }
 }
 
 @-webkit-keyframes slider {
@@ -317,6 +324,48 @@
   }
   90% {
     left: -1200px;
+  }
+}
+
+@-webkit-keyframes slider2 {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: 0;
+  }
+  35% {
+    left: -300px;
+  }
+  55% {
+    left: -300px;
+  }
+  65% {
+    left: -600px;
+  }
+  90% {
+    left: -600px;
+  }
+}
+
+@keyframes slider2 {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: 0;
+  }
+  35% {
+    left: -300px;
+  }
+  55% {
+    left: -300px;
+  }
+  65% {
+    left: -600px;
+  }
+  90% {
+    left: -600px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
