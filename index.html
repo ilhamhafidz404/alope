@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Goggle Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- GliderJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+
+    <!-- my CSS -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/testi.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="flex justify-between">
+        <div class="logo">
+            <h3 class="text-3xl font-bold">ALOPE</h3>
+        </div>
+        <ul class="flex items-center dekstop">
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#study">Study</a>
+            </li>
+            <li>
+                <a href="#testi">Testimony</a>
+            </li>
+            <li>
+                <a href="#group">Group</a>
+            </li>
+            <li class="hamburger" onclick="show()">
+                <i class="fas fa-bars"></i>
+            </li>
+        </ul>
+
+        <ul class="mobile">
+            <div class="nav flex items-center justify-around">
+                <li>
+                    <a href="#about"><i class="fas fa-list"></i></a>
+                </li>
+                <li>
+                    <a href="#study"><i class="fas fa-book"></i></a>
+                </li>
+                <li>
+                    <a href="" class="active"><i class="fas fa-home"></i></a>
+                </li>
+                <li>
+                    <a href="#group"><i class="fas fa-users"></i></a>
+                </li>
+                <li>
+                    <a href="#testi"><i class="fas fa-comments"></i></a>
+                </li>
+            </div>
+            <div class="upper" onclick="upper()">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </ul>
+    </nav>
+    <!-- /.navbar -->
+
+    <!-- Aside -->
+    <aside>
+        <div class="link">
+            <div class="close" onclick="remove()">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul>
+                <li class="active">
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Product</a>
+                </li>
+                <li>
+                    <a href="">Service</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <!-- /.Aside -->
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content">
+                        <h1 class="text-4xl">SELAMAT DATANG DI <span class="font-bold">ALOPE</span></h1>
+                        <h2 class="text-xl">Belajar Coding dan <span class="font-bold">#DijaminJadiJago</span></h2>
+                        <p class="mt-4">Ayoo ikuti keseruan belajar di <span>ALOPE</span>, banyak materi-materi yang sangat mudah dipahami disertai sama video tutorial khusus.</p>
+                        <div class="hot">
+                            <p><span><i class="fas fa-fire"></i> HOT</span> Dapatkan Source Code GRATIS. ></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 flex items-center">
+                    <img src="img/vektor/header.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /.Header -->
+
+
+
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="slider">
+                        <ul>
+                            <li>
+                                <img src="img/about.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/about.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/about.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 flex items-center main">
+                    <div class="content">
+                        <p>ALOPE itu apa sih??</p>
+                        <h3 class="text-4xl">Tentang <span>ALOPE</span></h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto amet, blanditiis temporibus deleniti ipsum earum facilis optio impedit, nesciunt quo, distinctio ducimus consequatur ullam maiores sapiente molestias laborum enim quas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.about -->
+
+    <!-- study -->
+    <div id="study">
+        <div class="container-sm">
+            <div class="text">
+                <h3 class="text-3xl mb-3">Alope Study</h3>
+                <p class="mb-5">Ayo bersama-sama explore dunia Programming disini!! di Alope banyak study-study keren, dimulai dari Framework hingga Bahasa Programming bisa kamu explore.</p>
+            </div>
+            <div class="glider-contain">
+                <div class="glider">
+                    <div>
+                        <div class="card">
+                            <img src="img/course/angular.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img src="img/course/react.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img src="img/course/javascript.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img src="img/course/css.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img src="img/course/wordpress.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img src="img/course/python.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+    
+                <button class="glider-prev">&laquo;</button>
+                <button class="glider-next">&raquo;</button>
+                <div id="dots"></div>
+            </div>
+        </div>
+    </div>
+    <!-- /.study -->
+    <div id="testi">
+        <section class="container">
+            <div class="title text-center">
+                <h3 class="text-4xl">TESTIMONI</h3>
+                <p>Apa kata mereka?</p>
+            </div>
+            <div class="slider2">
+                <div class="slide slide-1">
+                    <div class="slide-text">
+                        <p class="testimonial-text">
+                            “ I’ve been interested in coding for a while but never taken the jump, until now. 
+                            I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
+                            excited about the future. ”
+                        </p>
+                        <p class="author-text">Tanya Sinclair
+                            <span>UX Engineer</span></p>
+                        </div>
+                    <div class="slide-img">
+                        <img src="./img/image-tanya.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="slide slide-2">
+                    <div class="slide-text">
+                        <p class="testimonial-text">
+                            “ If you want to lay the best foundation possible I’d recommend taking this course. 
+                            The depth the instructors go into is incredible. I now feel so confident about 
+                            starting up as a professional developer. ”
+                        </p>
+                        <p class="author-text">John Tarkpor
+                            <span>Junior Front-end Developer</span></p>
+                    </div>
+                    <div class="slide-img">
+                        <img src="./img/image-john.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="slide slide-2">
+                    <div class="slide-text">
+                        <p class="testimonial-text">
+                            “ If you want to lay the best foundation possible I’d recommend taking this course. 
+                            The depth the instructors go into is incredible. I now feel so confident about 
+                            starting up as a professional developer. ”
+                        </p>
+                        <p class="author-text">Jasmine
+                            <span>Siswi SMK PERTIWI KUNINGAN</span></p>
+                    </div>
+                    <div class="slide-img">
+                        <img src="./img/testi/jasmine.png" alt="img">
+                    </div>
+                </div>
+              <div class="buttons">
+                <div class="next"></div>
+                <div class="prev"></div>
+              </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- GROUP -->
+    <div id="group">
+        <div class="container-xl">
+            <h3 class="text-3xl">Gabung dengan ALOPE</h3>
+            <span>Jadi bagian dari Team??</span>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="facebook flex items-center sosmed">
+                        <div class="i">
+                            <i class="text-3xl fab fa-facebook-f"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="text-xl">Facebook</h5>
+                            <p>Sukai Halaman Facebook kami untuk mendapatkan update terbaru</p>
+                        </div>
+                    </div>
+                    <div class="twitter  flex items-center sosmed">
+                        <div class="i">
+                            <i class="text-3xl fab fa-twitter"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="text-xl">Twitter</h5>
+                            <p>Ikuti Twitter kami untuk mendapatkan update terbaru</p>
+                        </div>
+                    </div>
+                    <div class="instagram  flex items-center sosmed">
+                        <div class="i">
+                            <i class="text-3xl fab fa-instagram"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="text-xl">Instagram</h5>
+                            <p>Ikuti Instagram kami untuk mendapatkan update terbaru seputar event-event dan aktifitas kami</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="discord  flex items-center sosmed">
+                        <div class="i">
+                            <i class="text-3xl fab fa-discord"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="text-xl">Discord</h5>
+                            <p>Gabung dengan grup Discord kami untuk mendapatkan solusi koding dari mentor resmi Alope</p>
+                        </div>
+                    </div>
+                    <div class="youtube  flex items-center sosmed">
+                        <div class="i">
+                            <i class="text-3xl fab fa-youtube"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="text-xl">Youtube</h5>
+                            <p>Ikuti Youtube supaya tidak ketinggalan video tutorial dari kami</p>
+                        </div>
+                    </div>
+                    <div class="telegram flex items-center sosmed">
+                        <div class="i">
+                            <i class="text-3xl fab fa-telegram"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="text-xl">Telegram</h5>
+                            <p>Gabung dengan grup Telegram kami untuk Mengobrol dengan team Alope yang lain</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer class="flex justify-between p-5">
+        <div class="left">
+            <h3 class="text-2xl font-bold">ALOPE</h3>
+        </div>
+        <div class="right">
+            <p>ALOPE <sup>TM</sup> 2021</p>
+        </div>
+    </footer>
+
+
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- GliderJS -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+
+    <!-- My JS -->
+    <script src="src/js/script.js"></script>
+    
+  </body>
+</html>
