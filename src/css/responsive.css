@@ -192,6 +192,22 @@
   }
 }
 
+@media screen and (max-width: 570px) {
+  #study {
+    padding: 0 30px;
+  }
+  #study .mapels {
+    padding: 0 80px;
+  }
+  #study .mapels .mapel {
+    margin: 5px;
+  }
+  #study .glider-content .pt {
+    text-align: center !important;
+    margin: 0 !important;
+  }
+}
+
 @media screen and (max-width: 445px) {
   nav {
     padding: 30px 20px;
@@ -302,6 +318,12 @@
     color: #eeeeee;
     font-size: 13px;
     margin-top: 15px !important;
+  }
+  #study {
+    padding: 0 20px;
+  }
+  #study .mapels {
+    padding: 0 20px;
   }
 }
 

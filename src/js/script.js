@@ -4,9 +4,9 @@ window.addEventListener('scroll', function(){
     const body= document.querySelector('body')
     navbar.classList.toggle('active', window.scrollY>0)
     if(document.body.clientWidth>767){
-        body.classList.toggle('active', window.scrollY>1500)
+        body.classList.toggle('active', window.scrollY>1800)
     } else{
-        body.classList.toggle('active', window.scrollY>2000)
+        body.classList.toggle('active', window.scrollY>3000)
     }
 });
 

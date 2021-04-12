@@ -329,6 +329,10 @@ header .content p {
   padding-top: 40px;
 }
 
+#study h5.pt {
+  white-space: nowrap;
+}
+
 #study .text {
   width: 750px;
   margin: auto;
@@ -337,6 +341,70 @@ header .content p {
 
 #study .card {
   margin: 10px;
+}
+
+#study .card .card-text {
+  font-size: 13px;
+}
+
+#study .card .card-text span.badge {
+  background-color: #47a0ff;
+}
+
+#study .mapel {
+  border: 2px solid #eaeaea;
+  border-radius: 5px;
+  padding: 20px 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#study .mapel:hover {
+  background-color: #eaeaea;
+}
+
+#study .mapel i {
+  font-size: 25px;
+}
+
+#study .mapel i.fa-html5 {
+  color: #dd4b24;
+}
+
+#study .mapel i.fa-css3-alt {
+  color: #2e9cd0;
+}
+
+#study .mapel i.fa-js {
+  color: #e9d44d;
+}
+
+#study .mapel i.fa-sass {
+  color: #c76395;
+}
+
+#study .mapel i.fa-bootstrap {
+  color: #533b78;
+}
+
+#study .mapel i.fa-cuttlefish {
+  color: #00427e;
+}
+
+#study .mapel i.fa-react {
+  color: #5ed3f3;
+}
+
+#study .mapel i.fa-php {
+  color: #7377ad;
+}
+
+#study .mapel i.fa-python {
+  color: #346e9f;
+}
+
+#study .mapel i.fa-database {
+  color: #f4ad0e;
 }
 
 .glider-dot.active {
