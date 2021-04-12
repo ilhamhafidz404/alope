@@ -131,7 +131,7 @@
   }
   #about .main .content p {
     font-size: 1.1em;
-    text-align: justify;
+    text-align: center;
   }
   #about .main .content p.text {
     color: #475569;
@@ -187,6 +187,9 @@
   header .content .hot {
     margin-top: 30px;
   }
+  #group {
+    padding: 15px;
+  }
 }
 
 @media screen and (max-width: 445px) {
@@ -220,7 +223,7 @@
     display: block;
   }
   header::before {
-    width: 95vw;
+    width: 100vw;
   }
   #about .slider {
     width: 330px;
@@ -233,6 +236,12 @@
     width: 330px;
     -webkit-animation: slider2 10s infinite;
             animation: slider2 10s infinite;
+  }
+  #group .sosmed .text {
+    padding: 0 10px;
+  }
+  #group .sosmed .text p {
+    font-size: 12px;
   }
 }
 
