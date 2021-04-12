@@ -243,6 +243,9 @@
   #group .sosmed .text p {
     font-size: 12px;
   }
+  button.glider-next, button.glider-prev {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 410px) {
